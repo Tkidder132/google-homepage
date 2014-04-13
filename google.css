@@ -1,0 +1,52 @@
+body
+{
+
+}
+
+body a
+{
+	text-decoration:none;	
+	color: #000000;
+}
+
+body div	
+{
+	position: relative;
+    top: 0; right: 0; bottom: 0; left: 0;
+}
+
+body div div
+{
+	position: fixed;
+	margin-left:-680px;
+	margin-top:-150px;
+	top: 50%;
+	left: 50%;
+	text-align: center;
+}
+
+body div div img
+{
+	margin-bottom: 25px;
+}
+
+body div div input[type="text"]
+{
+	margin-left:auto;
+	margin-right:auto;
+	margin-bottom: 15px;
+	text-align: center;
+	height: 25px;
+	width:570px;
+}
+
+body div div input[type="button"]
+{
+	margin-left:5px;
+	margin-right:5px;
+	padding: 5px;
+	text-align: center;
+	font-size: 8pt;
+	font-style: Lucida Console;
+	width:100px;
+}
