@@ -37,7 +37,7 @@ PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
 			<div id="parent">
 				<div id="child">
 					<img src="https://www.google.com/images/srpr/logo11w.png" height="95px" width="270px"><br>
-					<input type="text" name="txtSearch" id="txtSearch"><br>
+					<input type="text" name="txtSearch" id="txtSearch" onTextChanged="setPos();return false;"><br>
 					<a class="button default" href="#" onclick="searchGoogle();return false;">Google Search</a>
 					<a class="button default" id="lucky" href="#" onclick="feelingLucky();return false;">
 						<ul>
