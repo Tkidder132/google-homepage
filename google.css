@@ -8,8 +8,8 @@ body
 
 body a
 {
-	text-decoration:none;	
-	color: #000000;
+	text-decoration:none;
+	color: #666666;
 }
 
 #content div	
@@ -106,7 +106,7 @@ body a
 	padding-left: 10px;
 }
 
-#links
+#header #links
 {
 	font-size: 13.33px;
 	font-family: arial,sans-serif;
