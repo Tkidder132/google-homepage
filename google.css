@@ -51,23 +51,6 @@ body a
 	width:555px;
 }
 
-#content input[type="button"]
-{
-	margin-left:5px;
-	margin-right:5px;
-	padding: 5px;
-	text-align: center;
-	font-size: 8pt;
-	font-style: Lucida Console;
-	width:100px;
-}
-
-#content input[type="button"]:hover
-{
-	box-shadow: 3px 3px 1px 1px #ccc;
-}
-
-
 #wrapper
 {
 	min-height:100%;
@@ -135,25 +118,6 @@ body a
 	font-family: arial,sans-serif;
 	padding-right: 15px;
 	padding-left: 15px;
-}
-
-#header #sign-in a, a:visited
-{
-
-	margin: 0 15px 15px 0;
-	border: 1px solid #4285f4;
-	border-radius: 2px;
-	color: white;
-	font-size: 13px;
-	font-family: arial,sans-serif;
-	font-weight: bold;
-	background: #4285f4;
-	
-	height: 27px;
-	line-height: 27px;
-	min-width: 54px;
-	padding: 0 8px;
-	text-decoration: none;
 }
 
 #content #txtSearch
