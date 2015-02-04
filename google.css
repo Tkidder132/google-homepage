@@ -50,3 +50,19 @@ body div div input[type="button"]
 	font-style: Lucida Console;
 	width:100px;
 }
+
+#footer
+{
+   position:fixed;
+   left:0px;
+   bottom:0px;
+   height:30px;
+   width:100%;
+   background:#999;
+}
+
+#links
+{
+	padding-right: 5px;
+	padding-left: 5px;
+}

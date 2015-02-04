@@ -20,9 +20,14 @@ function searchGoogle()
 	window.open(searchURL,"_self");
 }
 
+function you()
+{
+	window.open("https://plus.google.com", "_self");
+}
+
 function gmail()
 {
-	window.open("https://accounts.google.com", "_self");
+	window.open("https://mail.google.com/", "_self");
 }
 
 function images()

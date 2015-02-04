@@ -1,1 +1,1 @@
-GOOGLE TEST
+This is a mock Google homepage developed while going through The Odin Project course.
