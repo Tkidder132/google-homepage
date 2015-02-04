@@ -1,33 +1,19 @@
-function searchGoogle() {
-    var x = document.getElementById("txtSearch");
-    var test = x.value;
-
+function searchGoogle()
+{
+    var x = document.getElementById("txtSearch").value.trim();
     var searchURL = "https://www.google.com/search?q=";
-
-    for (var i = 0; i < test.length; i++) {
-        if (test.substring(i, i + 1) === " ") {
-            searchURL += "+";
-        } else {
-            searchURL += test.substring(i, i + 1);
-        }
-    }
+	searchURL += x;
 
     window.open(searchURL, "_self");
 }
 
-function feelingLucky() {
-    var x = document.getElementById("txtSearch");
-    var test = x.value;
+var pos;
 
+function feelingLucky()
+{
+    var x = document.getElementById("txtSearch").value.trim();
     var searchURL = "https://www.google.com/search?q=";
-
-    for (var i = 0; i < test.length; i++) {
-        if (test.substring(i, i + 1) === " ") {
-            searchURL += "+";
-        } else {
-            searchURL += test.substring(i, i + 1);
-        }
-    }
+	searchURL += x;
 
     searchURL += "&btnI";
 
@@ -39,13 +25,19 @@ $(document).ready(function ()
     $('.button.default#lucky').hover(function()
 	{
 		var self = this;
-		var pos = -(Math.floor(Math.random() * 8) + 1) * 27
+		pos = -(Math.floor(Math.random() * 9) + 1) * 27;
+		var x = document.getElementById("txtSearch").value.trim();
+		
 		setTimeout(function()
 		{
-			$(self).find("ul").css("margin-top", pos + "px");
+			if( x === "" )
+			{
+				$(self).find("ul").css("margin-top", pos + "px");
+			}
 		}, 500);
 	}, function()
 	{
+		pos = 0;
 		$(this).find("ul").css("margin-top", "0px");
 	});
 });
