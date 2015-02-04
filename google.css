@@ -9,7 +9,6 @@ body
 body a
 {
 	text-decoration:none;
-	color: #666666;
 }
 
 #content div	
@@ -106,25 +105,27 @@ body a
 	padding-left: 10px;
 }
 
-#header #links
+#links:hover
 {
+    text-decoration: underline;
+}
+
+#header #links  a, a:visited
+{
+	color: #000000;
 	font-size: 13.33px;
 	font-family: arial,sans-serif;
 	padding-right: 5px;
 	padding-left: 5px;
 }
 
-#footer #links
+#footer #links a, a:visited
 {
+	color: #666666;
 	font-size: 13.33px;
 	font-family: arial,sans-serif;
 	padding-right: 15px;
 	padding-left: 15px;
-}
-
-#links:hover
-{
-    text-decoration: underline;
 }
 
 #content #txtSearch
