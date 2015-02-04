@@ -13,21 +13,19 @@ PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
 	<div id="wrapper">
 		<div id="header">
 			<div align="right">
-				<table id="links">
+				<table>
 					<tr>
-						<td>
+						<td id="links">
 							<a href="https://plus.google.com">+You</a>
 						</td>
-						<td>
+						<td id="links">
 							<a href="https://mail.google.com/">Gmail</a>
 						</td>
-						<td>
+						<td id="links">
 							<a href="https://www.google.com/imghp">Images</a>
 						</td>
 						<td>
-							<div id="sign-in">
-								<a id="sign-in" href="https://accounts.google.com/ServiceLogin?hl=en&continue=https://www.google.com/%3Fgws_rd%3Dssl">Sign in</a>
-							</div>
+							<a href="https://accounts.google.com/ServiceLogin?hl=en&continue=https://www.google.com/%3Fgws_rd%3Dssl" class="button blue">Sign in</a>
 						</td>
 					</tr>
 				</table>
@@ -39,8 +37,8 @@ PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
 				<div id="child">
 					<img src="https://www.google.com/images/srpr/logo11w.png" height="95px" width="270px"><br>
 					<input type="text" name="txtSearch" id="txtSearch"><br>
-					<input type="button" name="btnSearch" value="Google Search" onclick="searchGoogle()">
-					<input type="button" name="btnLucky" value="I'm Feeling Lucky">
+					<a class="button default" href="#" onclick="searchGoogle();return false;">Google Search</a>
+					<a class="button default" href="#" onclick="feelingLucky();return false;">I'm Feeling Lucky</a><br>
 				</div>
 			</div>
 		</div>

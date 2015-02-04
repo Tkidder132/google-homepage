@@ -4,11 +4,20 @@ body
 	margin:0;
 	padding:0;
 	height:100%;
+	
+	font-family: 'Lucida Grande', 'Helvetica Neue', sans-serif;
+	font-size: 13px;
 }
 
 body a
 {
 	text-decoration:none;
+}
+
+#wrapper div .buttons
+{
+	width: 200px;
+	margin: 20px auto;
 }
 
 #content div	
@@ -152,4 +161,97 @@ body a
 	padding-left: 10px;
 	text-align: left;
 	cursor: text;
+}
+
+#wrapper .button
+{
+	margin: 0 15px 15px 0;
+}
+
+.button, .button:visited
+{
+	display: inline-block;
+	background-color: #f5f5f5;
+	background-image: -webkit-linear-gradient(top,#f5f5f5,#f1f1f1);
+	background-image: -moz-linear-gradient(top,#f5f5f5,#f1f1f1);
+	background-image: -ms-linear-gradient(top,#f5f5f5,#f1f1f1);
+	background-image: -o-linear-gradient(top,#f5f5f5,#f1f1f1);
+	background-image: linear-gradient(top,#f5f5f5,#f1f1f1);
+	color: #444;
+	
+	border: 1px solid #dcdcdc;
+	-webkit-border-radius: 2px;
+	-moz-border-radius: 2px;
+	border-radius: 2px;
+	
+	cursor: default;
+	font-size: 11px;
+	font-weight: bold;
+	text-align: center;
+	height: 27px;
+	line-height: 27px;
+	min-width: 54px;
+	padding: 0 8px;
+	text-decoration: none;
+}
+
+.button:hover
+{
+	background-color: #F8F8F8;
+	background-image: -webkit-linear-gradient(top,#f8f8f8,#f1f1f1);
+	background-image: -moz-linear-gradient(top,#f8f8f8,#f1f1f1);
+	background-image: -ms-linear-gradient(top,#f8f8f8,#f1f1f1);
+	background-image: -o-linear-gradient(top,#f8f8f8,#f1f1f1);
+	background-image: linear-gradient(top,#f8f8f8,#f1f1f1);
+	
+	border: 1px solid #C6C6C6;
+	color: #333;
+	
+	-webkit-box-shadow: 0px 1px 1px rgba(0,0,0,.1);
+	-moz-box-shadow: 0px 1px 1px rgba(0,0,0,.1);
+	box-shadow: 0px 1px 1px rgba(0,0,0,.1);
+}
+
+.button.blue
+{
+	background-color: #4D90FE;
+	background-image: -webkit-linear-gradient(top,#4d90fe,#4787ed);
+	background-image: -moz-linear-gradient(top,#4d90fe,#4787ed);
+	background-image: -ms-linear-gradient(top,#4d90fe,#4787ed);
+	background-image: -o-linear-gradient(top,#4d90fe,#4787ed);
+	background-image: linear-gradient(top,#4d90fe,#4787ed);
+
+	border: 1px solid #3079ED;
+	color: white;
+}
+
+.button.blue:hover
+{
+	border: 1px solid #2F5BB7;
+	
+	background-color: #357AE8;
+	background-image: -webkit-linear-gradient(top,#4d90fe,#357ae8);
+	background-image: -moz-linear-gradient(top,#4d90fe,#357ae8);
+	background-image: -ms-linear-gradient(top,#4d90fe,#357ae8);
+	background-image: -o-linear-gradient(top,#4d90fe,#357ae8);
+	background-image: linear-gradient(top,#4d90fe,#357ae8);
+	
+	-webkit-box-shadow: 0 1px 1px rgba(0,0,0,.1);
+	-moz-box-shadow: 0 1px 1px rgba(0,0,0,.1);
+	box-shadow: 0 1px 1px rgba(0,0,0,.1);
+}
+
+.button.default:active
+{
+	-webkit-box-shadow: inset 0px 1px 2px rgba(0,0,0,.1);
+	-moz-box-shadow: inset 0px 1px 2px rgba(0,0,0,.1);
+	box-shadow: inset 0px 1px 2px rgba(0,0,0,.1);
+	color: black;
+}
+
+.button.blue:active 
+{
+	-webkit-box-shadow: inset 0px 1px 2px rgba(0,0,0,.3);
+	-moz-box-shadow: inset 0px 1px 2px rgba(0,0,0,.3);
+	box-shadow: inset 0px 1px 2px rgba(0,0,0,.3);
 }
